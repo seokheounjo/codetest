@@ -57,7 +57,7 @@ export default function LessonDetail() {
   };
 
   const handleLessonComplete = async () => {
-    if (!user) return;
+    if (!user || !lesson) return;
 
     let finalScore = 70;
 
@@ -81,6 +81,7 @@ export default function LessonDetail() {
   };
 
   const canComplete = () => {
+    if (!lesson) return false;
     if (lesson.lessonType === 'quiz') {
       return quizCompleted;
     }
