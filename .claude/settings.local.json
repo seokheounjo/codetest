@@ -10,7 +10,12 @@
       "Bash(npx create-next-app@latest --help)",
       "Bash(npm install:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Next.js 코딩 학습 플랫폼\n\n- Next.js 15 + TypeScript + Tailwind CSS\n- Supabase 인증 및 데이터베이스 연동\n- 반응형 디자인 (모바일/태블릿/데스크톱)\n- 7개 레벨 코딩 교육 콘텐츠 (C, Java, JavaScript)\n- 퀴즈, 실습, 배지 시스템\n- 대시보드, 진행도 트래킹\n- 체험 계정 기능\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
