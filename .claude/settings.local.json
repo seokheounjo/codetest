@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "Bash(ssh:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(tree:*)",
+      "Bash(npx create-next-app@latest codetest-nextjs --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --turbopack --eslint --no-git)",
+      "Bash(npx create-next-app@latest --help)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
